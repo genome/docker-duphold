@@ -5,7 +5,7 @@ RUN apt-get update -y && apt-get install -y \
     wget 
 
 ENV DUPHOLD_INSTALL_DIR=/opt/duphold
-ENV DUPHOLD_VERSION=0.1.4
+ENV DUPHOLD_VERSION=0.15
 
 RUN mkdir $DUPHOLD_INSTALL_DIR
 WORKDIR $DUPHOLD_INSTALL_DIR
