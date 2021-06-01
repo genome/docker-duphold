@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:focal
 MAINTAINER Alexander Paul <alex.paul@wustl.edu>
 
 RUN apt-get update -y && apt-get install -y \
